@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Yield Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🌱 Smart Yield Dashboard</h1>
+    <p>Monitor Soil Health | Predict Crops | Maximize Yield</p>
+  </header>
+
+  <main>
+    <section class="sensor-data">
+      <h2>Soil Sensor Data</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>pH Level</h3>
+          <p id="ph"></p>
+        </div>
+        <div class="card">
+          <h3>Nitrogen (N)</h3>
+          <p id="n"></p>
+        </div>
+        <div class="card">
+          <h3>Phosphorus (P)</h3>
+          <p id="p"></p>
+        </div>
+        <div class="card">
+          <h3>Potassium (K)</h3>
+          <p id="k"></p>
+        </div>
+        <div class="card">
+          <h3>Moisture</h3>
+          <p id="moisture"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="results">
+      <h2>AI Prediction Results</h2>
+      <div class="prediction-box">
+        <h3>Recommended Crop</h3>
+        <p id="crop"></p>
+      </div>
+      <div class="prediction-box">
+        <h3>Estimated Yield</h3>
+        <p id="yield"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with ❤️ by Smart Yield Team</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
